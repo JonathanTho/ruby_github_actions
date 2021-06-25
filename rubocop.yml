@@ -1,0 +1,25 @@
+# Customize rules
+
+Metrics/LineLength:
+  Max: 120
+
+MethodLength:
+  Max: 35
+
+Metrics/ClassLength:
+  Max: 1500
+
+Metrics/AbcSize:
+  Enabled: false
+
+BlockLength:
+  Max: 70
+
+Layout/EndOfLine:
+  EnforcedStyle: lf
+
+AllCops:
+  TargetRubyVersion: 2.6.6
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false

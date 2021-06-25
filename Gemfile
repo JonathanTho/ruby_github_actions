@@ -3,3 +3,6 @@
 source 'https://rubygems.org'
 
 ruby '2.6.6'
+
+gem 'rubocop', '~> 1.17'
+
