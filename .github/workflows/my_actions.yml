@@ -3,6 +3,7 @@ on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
-      steps:
+    steps:
       - uses: andrewmcodes-archive/rubocop-linter-action@v3.3.0
+
 
